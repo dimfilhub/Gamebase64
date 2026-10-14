@@ -1,0 +1,12 @@
+/data/*
+!/data/vice/
+/build/
+/sources/
+/dist/
+/GBC_v19.mdb
+__pycache__/
+/config.json
+/Gamebase64.spec
+.idea/
+.venv/
+.DS_Store
