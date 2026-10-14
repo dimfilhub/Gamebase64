@@ -12,6 +12,40 @@ The app does not ship the game files. You supply the GB64 source zips, and the a
 - **Action buttons**: *Screenshot*, *Cover*, *Reveal game file* (show the zip in Finder/Explorer), and *Launch in VICE*.
 - **Launch in VICE**: extracts the game's zip into `data/cache/run/<id>` and starts `x64sc -autostart` on the image named in the database (`FileToRun`), or else the first `.d64/.g64/.t64/.tap/.crt/.prg…` found. It runs fullscreen with the chosen controller on joystick port 2.
 
+## Screenshots
+
+The main window at start-up:
+
+![Main window at start-up](images/screenshots/screenshot-1.jpg)
+
+A game selected, showing its screenshot and info:
+
+![Game selected, showing its screenshot and info](images/screenshots/screenshot-2.jpg)
+
+The Extras tab, with the cover and the list of manuals, adverts and more:
+
+![Extras tab with the cover preview](images/screenshots/screenshot-3.jpg)
+
+Searching by name:
+
+![Searching for a game](images/screenshots/screenshot-4.jpg)
+
+The genre filter:
+
+![Genre filter dropdown](images/screenshots/screenshot-7.jpg)
+
+Settings:
+
+![Settings window](images/screenshots/screenshot-5.jpg)
+
+Populate folders:
+
+![Populate folders window](images/screenshots/screenshot-6.jpg)
+
+Help:
+
+![Help window](images/screenshots/screenshot-8.jpg)
+
 ## Using the app
 
 - **Search**: type in the *Search* field above the list to filter games by name as you type. Click **Clear** to empty the field and show all games again.
@@ -103,3 +137,7 @@ The database and `data/vice` are copied next to the app in `dist/`. The large ga
 ## Credits
 
 The start-up photo (`images/c64.jpg`) is [Commodore64.jpg](https://commons.wikimedia.org/wiki/File:Commodore64.jpg) from Wikimedia Commons, licensed [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/), resized.
+
+## License
+
+The code is released under the [MIT License](LICENSE). The GB64 data and the start-up photo are covered by their own terms, as described in Credits.
