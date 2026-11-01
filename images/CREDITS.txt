@@ -1,0 +1,3 @@
+icon.png
+  Atari-style joystick illustration, supplied by the project owner and used as the app icon
+  (padded to a 1024 px square from the original artwork).
