@@ -60,7 +60,19 @@ Help:
 - [Pillow](https://python-pillow.org/) (`pip install -r requirements.txt`)
 - [VICE](https://vice-emu.sourceforge.io/) (the `x64sc` emulator) to launch games. Browsing works without it.
 
-Run the app:
+### Quick start with the launchers
+
+Double-click the launcher for your system. On first run it finds Python 3, creates a `.venv` virtual environment, installs `requirements.txt` and starts the app. Later runs skip any step already done.
+
+| System | Launcher |
+| --- | --- |
+| macOS | `start_macos.command` |
+| Windows | `start_windows.bat` |
+| Linux | `start_linux.sh` (run from a terminal, or choose "Run" in your file manager) |
+
+If Python or `tkinter` is missing, the launcher says how to install it.
+
+### Run from the command line
 
 ```sh
 python gamebase64.py
