@@ -158,6 +158,14 @@ The builds are **not code signed**. Signing needs a paid Apple Developer account
 
 The macOS build is for Apple Silicon (arm64) Macs. On an Intel Mac, run from source or build it yourself with `python build.py`.
 
+## Updates
+
+The app can tell you when a newer release is published on [GitHub](https://github.com/dimfilhub/Gamebase64/releases). Once a day, a few seconds after it starts, it asks GitHub for the latest release and, if that is newer than yours, shows a window with **Open download page**, **Skip this version** and **Later**. Nothing is shown when you are up to date or offline.
+
+- **Help > Check for Updates…** checks right away and always answers (a skipped version is shown again here).
+- **Help > Check for updates at startup** switches the automatic check off; the choice is kept.
+- Only an ordinary request for the project's public releases page is sent: no personal data. Nothing is downloaded or installed; you update by getting the new version yourself.
+
 ## Credits
 
 The start-up photo (`images/c64.jpg`) is [Commodore64.jpg](https://commons.wikimedia.org/wiki/File:Commodore64.jpg) from Wikimedia Commons, licensed [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/), resized.
